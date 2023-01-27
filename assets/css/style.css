@@ -38,6 +38,7 @@ body {
     line-height: 2.2;
     background-color: #fff;
     color: #797979;
+    overflow-x: hidden;
 }
 
 img {
@@ -114,24 +115,24 @@ h1, h2, h3, h4, h5, h6 {
 
 .sec_title h2 {
     font-size: 45px;
-    font-weight: 900;
+    font-weight: 700;
     color: #242424;
     text-transform: capitalize;
     display: inline-block;
     position: relative;
     padding-bottom: 17px;
 }
-
-.sec_title h2:after {
+/* .sec_title h2 ::after{
+        transition: all 0.1s ease-in-out;
     content: "";
     position: absolute;
-    bottom: -9px;
-    left: 50%;
-    transform: translate(-50%);
-    width: 107px;
-    height: 10px;
-    background-image: url(../images/title_bg.png);
-}
+    bottom: 13.5%;
+    z-index: -1;
+    height: 0.3em;
+    width: 50%;
+    left: 33%;
+    background: #FFB305;
+} */
 
 .primary_bg {
     background-color: #f4f4f4;
@@ -402,9 +403,9 @@ h1, h2, h3, h4,
     font-size: 90px;
     text-align: center;
     text-transform: capitalize;
-    font-weight: 900;
+    font-weight: 600;
     margin-top: 10px;
-    margin-bottom: 35px;
+    margin-bottom: 20px;
 }
 
 .home h3 {
@@ -414,6 +415,7 @@ h1, h2, h3, h4,
     text-transform: lowercase;
     overflow: hidden;
     line-height: 25px;
+    padding: 5px 10px;
 }
 
 .home h3 span:after {
@@ -432,9 +434,11 @@ h1, h2, h3, h4,
 .home h3 span {
     position: relative;
     display: inline-block;
-    padding: 5px 8px;
+    padding: 0px 10px;
     margin-right: 5px;
-    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: capitalize;
 }
 
 .home .social {
@@ -691,7 +695,7 @@ h1, h2, h3, h4,
 
 .about h3 {
     font-size: 24px;
-    font-weight: 700;
+    font-weight: bold;
     color: #111;
     margin-bottom: 18px;
 }
@@ -760,7 +764,9 @@ h1, h2, h3, h4,
 .skills .skill span:last-of-type {
     float: right;
 }
-
+.dev-skill {
+    margin-bottom: 30px;
+}
 .about .about_btns a {
     display: inline-block;
     text-align: center;
@@ -829,6 +835,35 @@ h1, h2, h3, h4,
 }
 .home_bt .about_btns a:last-of-type:hover {
     cursor: pointer;
+}
+.border-btn {
+    display: inline-block;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 13px;
+    line-height: 1;
+    padding: 7px 7px;
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    min-width: 50px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    margin-right: 2px;
+}
+
+.about-sub::after {
+    transition: all 0.1s ease-in-out;
+    content: "";
+    position: absolute;
+    bottom: 13.5%;
+    z-index: -1;
+    height: 0.3em;
+    width: 50%;
+    left: 33%;
+    background: #FFB305;
+    
 }
 
 /*End About Section*/
@@ -936,7 +971,7 @@ h1, h2, h3, h4,
 .services .content:hover {
     -webkit-transform: translateY(-6px);
     transform: translateY(-6px);
-    box-shadow: 0px 9px 15px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 9px 15px 0px rgba(0, 0, 0, 0.2);
 }
 
 .services .icon {
@@ -946,18 +981,23 @@ h1, h2, h3, h4,
     width: 82px;
     height: 82px;
     border-radius: 50%;
-    background-color: #eee;
+    background-color: #FFB305;
 }
-
+.services .block-icon {
+    background-color: #507ec8;
+}
+.services .cam-icon {
+    background-color: #d35ca5;
+}
 .services i {
     font-size: 30px;
-    color: #222;
+    color: white;
     line-height: 82px;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
 
-.services i:after {
+.cam-icon i:after {
     content: "";
     position: absolute;
     top: 0;
@@ -965,13 +1005,40 @@ h1, h2, h3, h4,
     z-index: -1;
     width: 100%;
     height: 100%;
-    background-color: #111;
+    background-color: #d35ca5;
     border-radius: 50%;
     transform: scale(0);
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
-
+.front-icon i:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-color: #FFB305;
+    border-radius: 50%;
+    transform: scale(0);
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.block-icon i:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-color: #507ec8;
+    border-radius: 50%;
+    transform: scale(0);
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
 .services .content:hover i {
     color: #fff;
 }
@@ -981,13 +1048,45 @@ h1, h2, h3, h4,
 }
 
 .services h3 {
-    font-size: 18px;
-    font-weight: 600;
+    font-size: 24px;
+    font-weight: 800;
     color: #111;
     margin-top: 25px;
     margin-bottom: 15px;
 }
-
+/* .dev_underline::after{
+    transition: all 0.1s ease-in-out;
+    content: "";
+    position: absolute;
+    bottom: 51%;
+    z-index: -1;
+    height: 0.3em;
+    width: 50%;
+    left: 25%;
+    background: #FFB305;
+}
+.block_underline::after{
+    transition: all 0.1s ease-in-out;
+    content: "";
+    position: absolute;
+    bottom: 51%;
+    z-index: -1;
+    height: 0.3em;
+    width: 40%;
+    left: 30%;
+    background:  #507ec8;
+}
+.write_underline::after{
+    transition: all 0.1s ease-in-out;
+    content: "";
+    position: absolute;
+    bottom: 51%;
+    z-index: -1;
+    height: 0.3em;
+    width: 60%;
+    left: 20%;
+    background: #d35ca5;
+} */
 .services p {
     margin-bottom: 0;
     font-size: 15px;
