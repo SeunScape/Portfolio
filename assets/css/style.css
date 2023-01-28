@@ -293,10 +293,8 @@ h1, h2, h3, h4,
     transition: all 0.3s ease-in-out;
 }
 
-.navbar-default .navbar-brand {
-    color: #fff;
-    text-transform: uppercase;
-    font-weight: 700;
+.navbar-default .navbar-brand img{
+    width: 180px;
 }
 
 .navbar-default .navbar-brand:hover, 
