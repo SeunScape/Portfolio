@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: lightgray;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav a {
+    color: black;
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  .services-row, .project-row {
+    display: flex;
+  }
+  
+  .service-col, .project-col {
+    flex-basis: 33.33%;
+    padding: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  label, input[type="submit"] {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  input[type="text"], input[type="email"] {
+    border: 1px solid gray;
+    padding: 10px;
+  }
+  
+  input[type="submit"] {
+    background-color: lightgray;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+  }
+  
