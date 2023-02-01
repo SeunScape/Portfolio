@@ -990,7 +990,7 @@ h1, h2, h3, h4,
 .services .content:hover {
     -webkit-transform: translateY(-6px);
     transform: translateY(-6px);
-    box-shadow: 0px 9px 15px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 9px 10px 0px rgba(0, 0, 0, 0.2);
 }
 
 .services .icon {
@@ -1080,8 +1080,7 @@ h1, h2, h3, h4,
     position: relative; 
 }
 .heading-title {
-    color: black;
-    line-height: 1.4em;
+    font-size: 15px;
     font-weight: 400;
     padding-left: 35px;
 }
