@@ -402,14 +402,14 @@ h1, h2, h3, h4,
     text-align: center;
     text-transform: capitalize;
     font-weight: 700;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 
 .home h3 {
     color: #fafafa;
     text-align: center;
-    font-size: 18px;
+    font-size: 17px;
     text-transform: lowercase;
     overflow: hidden;
     line-height: 1.5em;
@@ -734,6 +734,19 @@ h1, h2, h3, h4,
 .about .padding-left-35 {
     padding-left: 35px;
 }
+.about ul li {
+    display: inline-block;
+    font-size: 13px;
+    line-height: 1;
+    padding: 10px 10px;
+    margin: 0px 0.25rem 1rem 0px;
+    color: white;
+    border: 2px solid black;
+    background-color: black;
+    min-width: 50px;
+    -webkit-transition: all 0.2s ease-in-out 0.2s;
+    transition: all 0.2s ease-in-out 0.2s;
+}
 
 .skills {
     margin-top: 20px;
@@ -834,22 +847,7 @@ h1, h2, h3, h4,
 .home_bt .about_btns a:last-of-type:hover {
     cursor: pointer;
 }
-.border-btn {
-    display: inline-block;
-    text-align: center;
-    letter-spacing: 1px;
-    font-size: 13px;
-    line-height: 1;
-    padding: 7px 7px;
-    border: 2px solid black;
-    background-color: black;
-    color: white;
-    min-width: 50px;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    cursor: pointer;
-    margin-right: 2px;
-}
+
 
 .about-sub::after {
     transition: all 0.1s ease-in-out;
@@ -879,17 +877,32 @@ h1, h2, h3, h4,
 
 .portfolio ul li {
     display: inline-block;
-    padding: 0 10px 10px 10px;
-    margin-left: 10px;
-    cursor: pointer;
-    color: #B1B1B1;
-    font-size: 14px;
-    font-weight: 700;
-    text-transform: uppercase;
+    font-size: 13px;
+    line-height: 1;
+    padding: 10px 10px;
+    margin: 0px 0.25rem 1rem 0px;
+    color: white;
+    border: 2px solid black;
+    background-color: black;
+    min-width: 50px;
     -webkit-transition: all 0.2s ease-in-out 0.2s;
     transition: all 0.2s ease-in-out 0.2s;
 }
-
+/* .border-btn {
+    position: flex;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 13px;
+    line-height: 1;
+    padding: 7px 7px;
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    min-width: 50px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    margin-right: 2px;
+} */
 .portfolio ul li.active_filter,
 .portfolio ul li:hover {
     color: #000;
