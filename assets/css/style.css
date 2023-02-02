@@ -38,7 +38,7 @@ body {
     line-height: 2.2;
     background-color: #fff;
     color: #797979;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 img {
@@ -131,7 +131,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 0.3em;
     width: 50%;
     left: 33%;
-    background: #FFB305;
+    background: #F28705;
 } */
 
 .primary_bg {
@@ -401,18 +401,18 @@ h1, h2, h3, h4,
     font-size: 90px;
     text-align: center;
     text-transform: capitalize;
-    font-weight: 600;
-    margin-top: 10px;
+    font-weight: 700;
+    margin-top: 50px;
     margin-bottom: 20px;
 }
 
 .home h3 {
     color: #fafafa;
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
     text-transform: lowercase;
     overflow: hidden;
-    line-height: 25px;
+    line-height: 1.5em;
     padding: 5px 10px;
 }
 
@@ -435,7 +435,7 @@ h1, h2, h3, h4,
     padding: 0px 10px;
     margin-right: 5px;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 24px;
     text-transform: capitalize;
 }
 
@@ -827,9 +827,9 @@ h1, h2, h3, h4,
     color: black;
 }
 .home_bt .about_btns a:last-of-type {
-    background-color: #FFB305;
-    color: black;
-    border-color: #FFB305;
+    background-color: #F28705;
+    color: white;
+    border-color: #F28705;
 }
 .home_bt .about_btns a:last-of-type:hover {
     cursor: pointer;
@@ -860,7 +860,7 @@ h1, h2, h3, h4,
     height: 0.3em;
     width: 50%;
     left: 33%;
-    background: #FFB305;
+    background: #F28705;
     
 }
 
@@ -948,7 +948,7 @@ h1, h2, h3, h4,
 }
 .portfolio h6{
     margin-bottom: 10px;
-    color: #FFB305;
+    color: #F28705;
 }
 .portfolio_btn {
     display: inline-block;
@@ -1001,7 +1001,7 @@ h1, h2, h3, h4,
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background-color: #FFB305;
+    background-color: #F28705;
     float: left;
     margin-right: 20px;
 }
@@ -1041,7 +1041,7 @@ h1, h2, h3, h4,
     z-index: -1;
     width: 100%;
     height: 100%;
-    background-color: #FFB305;
+    background-color: #F28705;
     border-radius: 50%;
     transform: scale(0);
     -webkit-transition: all 0.3s ease-in-out;
@@ -1124,7 +1124,7 @@ h1, h2, h3, h4,
     height: 0.3em;
     width: 50%;
     left: 25%;
-    background: #FFB305;
+    background: #F28705;
 }
 .block_underline::after{
     transition: all 0.1s ease-in-out;
