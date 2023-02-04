@@ -387,8 +387,9 @@ h1, h2, h3, h4,
     transform-origin: 10% 90%;
 }
 .collapsed .icon-bar {
-    transform: none !important;
-    opacity: 1 !important;
+    /* transform: none !important;
+    opacity: 1 !important; */
+    background-color: #F28705 !important;
 }
 
 .home .display-table {
@@ -856,8 +857,8 @@ h1, h2, h3, h4,
     bottom: 13.5%;
     z-index: -1;
     height: 0.3em;
-    width: 50%;
-    left: 33%;
+    width: 41%;
+    left: 21%;
     background: #F28705;
     
 }
@@ -903,10 +904,10 @@ h1, h2, h3, h4,
     transition: all 0.3s ease-in-out;
     margin-right: 2px;
 } */
-.portfolio ul li.active_filter,
+/* .portfolio ul li.active_filter,
 .portfolio ul li:hover {
     color: #000;
-}
+} */
 
 .portfolio .grid-item {
     margin-bottom: 30px;
@@ -1165,7 +1166,11 @@ h1, h2, h3, h4,
     margin-bottom: 0;
     font-size: 15px;
 }
-
+.width-container {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
 /*End Services Section*/
 
 
