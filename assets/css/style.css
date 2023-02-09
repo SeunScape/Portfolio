@@ -983,6 +983,13 @@ h1, h2, h3, h4,
 {
     padding-right: 70px;
 }
+.port-text h6{
+    margin-bottom: 10px;
+}
+.port-text h1{
+    margin-bottom: 20px;
+    font-size: 50px;
+}
 /*End Portfolio Section*/
 
 
