@@ -990,6 +990,17 @@ h1, h2, h3, h4,
     margin-bottom: 20px;
     font-size: 50px;
 }
+.back {
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.back i {
+    font-size: 20px;
+}
+.back a :hover {
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease-in-out 0s;
+}
 /*End Portfolio Section*/
 
 
