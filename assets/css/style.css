@@ -983,6 +983,10 @@ h1, h2, h3, h4,
     color: white;
     background-color: black;
 }
+.wp-style h2 {
+    color: black;
+    padding-bottom: 15px;
+}
 .contain 
 {
     padding-right: 70px;
