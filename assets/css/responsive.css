@@ -83,7 +83,7 @@
         display: inline !important; 
     }
     .about {
-        margin-top: 20px !important;
+        margin-top: 20px;
         padding: 10px;
     }
     .about p {
@@ -93,7 +93,12 @@
     .about .padding-left-35 {
         padding-left: 15px;
     }
-
+    .portfolio {
+        margin-top: 0px !important;
+    }
+    .contact {
+        margin-top: 20px;
+    }
     /*-- services --*/
     .services{
         padding-top: 50px;
@@ -114,6 +119,10 @@
 
     .blog .item:last-of-type {
         margin-bottom: 0;
+    }
+    .about ul li {
+        padding: 7px 7px;
+        font-size: 12px;
     }
 
     /*-- contact --*/
@@ -222,5 +231,12 @@
     .contact .info p {
         margin-bottom: 30px;
     }
-
+    .header-h3 {
+        display: none;
+    }
+}
+@media(min-width:991px) and (max-width:1268px){
+    .header-h3 {
+        display: none;
+    }
 }

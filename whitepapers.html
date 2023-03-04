@@ -10,7 +10,7 @@
         <title>Portfolio</title>
 
         <!-- favicon -->
-        <link id="favicon" rel="icon" type="image/png" href="">
+        <link id="favicon" rel="icon" type="image/png" href="assets/images/Group 1.png">
 
         <!-- Google Fonts-->
         <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500%7CMontserrat:300,400,500,600,700,800,900"> -->
@@ -50,29 +50,32 @@
           <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
           <script src="anime.min.js"></script>
         <![endif]-->
-            <style>
-              .navbar-default .navbar-brand:hover, 
+        <style>
+            .navbar-default {
+                background-color: black !important;
+            }
+          .navbar-default .navbar-brand:hover, 
 .navbar-default .navbar-brand:focus {
-    color: black;
+color: black;
 }
 
 .navbar-nav > li,
 .navbar-brand {
-    padding: 30px 15px;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
+padding: 30px 15px;
+-webkit-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
 }
 
 .navbar-default .navbar-nav > li > a {
-    color: black;
+color: white;
 }
 
 .navbar-default .navbar-nav a:after {
-    background: black;
+background: black;
 }
 
 .nav_scroll {
-    background-color: #000;
+background-color: #000;
 }
 
 .navbar-default .navbar-nav > li > a:hover, 
@@ -80,19 +83,43 @@
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-    color: black !important;
-    background-color: transparent;
+color: black !important;
+background-color: transparent;
 }
 
 .navbar-default .navbar-toggle:hover, 
 .navbar-default .navbar-toggle:focus {
-    background-color: transparent;
+background-color: transparent;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: black !important;
+background-color: white !important;
 }
-            </style>
+@media(max-width:767px) {
+.navbar-brand img{
+margin: -11px!important;
+width: 160px !important;
+}
+.front-class {
+    padding: 10px;
+}
+.port-text h1 {
+    font-size: 40px;
+}
+.my__img{
+    display: inline-block !important;
+}
+.img_style{
+    padding-top: 10px;
+}
+.wp-styles {
+    padding-top: 10px !important;
+}
+.about {
+    padding: 0px !important;
+}
+}
+        </style>
     </head>
     <body data-spy="scroll" data-target=".navbar" data-offset="70">
 
@@ -148,7 +175,7 @@
                     </div><!--.container-->
                 </nav>
         </section>
-        <section class="padding-top-90 padding-bottom-90">
+        <section class="padding-top-90 padding-bottom-90 front-class">
             <div class="container">
               <div class="back"><a onclick="history.back()"><i class="fa-sharp fa-solid fa-arrow-left"></i></a></div>
                 <div class="row">
@@ -164,14 +191,14 @@
                     </div>
                 </div>
                 <div class="about wp-style">
-                    <div class="row padding-top-90">
-                        <div class="col-md-7 padding-left-35 contain">
+                    <div class="row padding-top-90 wp-styles">
+                        <div class="col-md-7 padding-left-35">
                             <h2>The Afrosphere </h2>
                             <p>The AfroSphere is a visionary project that seeks to create an all-inclusive ecosystem built on blockchain technology, with the aim of unifying the African community, and promoting economic development and physical growth of nations represented by Africans. <br/>My role in this project was to contribute to the development of its whitepaper, outlining the goals and objectives of the project in a clear and concise manner.
 
                                 Through my work, I helped to explain the potential of blockchain technology and cryptocurrency to create a sustainable and financially inclusive community, erasing the economic marginalization faced by many Africans.</p>
                         </div>
-                        <div class="col-md-5">
+                        <div class="col-md-5 img_style">
                             <div class="my__img animated animated_scroll fadeInUp" style="animation-delay: 0.3s">
                                 <img src="./assets/images/Screenshot_20230217_115040.png" alt="">
                             </div>
@@ -179,26 +206,26 @@
     
                     </div>
                     <div class="row padding-top-90">
-                        <div class="col-md-7 padding-right-35 contain">
+                        <div class="col-md-7 padding-right-35">
                             <h2> My DeFi Pet Whitepaper </h2>
                             <p>As a whitepaper writer for "My DeFi Pet", my goal was to effectively communicate the vision and mission of this innovative blockchain game to potential players and investors. "My DeFi Pet" is a unique pet-raising game that combines the cutting-edge features of DeFi functionality with personalized gameplay, with the ultimate goal of mass adoption.
 
                              <br/>   Through the whitepaper, I aimed to provide a clear and concise explanation of how the game works, highlighting its key features and how they work together to create a revolutionary gaming experience. I also discussed how the game incorporates DeFi functionality, enabling players to earn and trade in-game assets while maintaining full ownership and control.</p>
                         </div>
-                        <div class="col-md-5">
+                        <div class="col-md-5 img_style">
                             <div class="my__img animated animated_scroll fadeInUp" style="animation-delay: 0.3s">
                                 <img src="./assets/images/Screenshot_20230217_123357.png"/>
                             </div>
                         </div>
                     </div>
                     <div class="row padding-top-90">
-                        <div class="col-md-7 padding-left-35 contain">
+                        <div class="col-md-7 padding-left-35">
                             <h2> Wattybit Whitepaper </h2>
                             <p>WattyBit is a project that centers on the creation of a utility token called WATTY, which is designed to tokenize the Energy Cost Layer (ECL) of crypto mining equipment globally.
                                 <br/>
                                 Overall, my role as a whitepaper writer for WattyBit was to communicate the potential of the project to potential investors and stakeholders. By providing a detailed explanation of the technology, its benefits, and its potential impact on the crypto mining industry, I aimed to help potential investors make informed decisions and encourage them to become part of this exciting new project.</p>
                         </div>
-                        <div class="col-md-5">
+                        <div class="col-md-5 img_style">
                             <div class="my__img animated animated_scroll fadeInUp" style="animation-delay: 0.3s">
                                 <img src="./assets/images/Screenshot_20230217_123451.png"/>
                             </div>

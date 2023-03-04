@@ -10,7 +10,7 @@
         <title>Portfolio</title>
 
         <!-- favicon -->
-        <link id="favicon" rel="icon" type="image/png" href="">
+        <link id="favicon" rel="icon" type="image/png" href="assets/images/Group 1.png">
 
         <!-- Google Fonts-->
         <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500%7CMontserrat:300,400,500,600,700,800,900"> -->
@@ -50,29 +50,32 @@
           <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
           <script src="anime.min.js"></script>
         <![endif]-->
-            <style>
-              .navbar-default .navbar-brand:hover, 
+        <style>
+            .navbar-default {
+                background-color: black !important;
+            }
+          .navbar-default .navbar-brand:hover, 
 .navbar-default .navbar-brand:focus {
-    color: black;
+color: black;
 }
 
 .navbar-nav > li,
 .navbar-brand {
-    padding: 30px 15px;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
+padding: 30px 15px;
+-webkit-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
 }
 
 .navbar-default .navbar-nav > li > a {
-    color: black;
+color: white;
 }
 
 .navbar-default .navbar-nav a:after {
-    background: black;
+background: black;
 }
 
 .nav_scroll {
-    background-color: #000;
+background-color: #000;
 }
 
 .navbar-default .navbar-nav > li > a:hover, 
@@ -80,19 +83,31 @@
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-    color: black !important;
-    background-color: transparent;
+color: black !important;
+background-color: transparent;
 }
 
 .navbar-default .navbar-toggle:hover, 
 .navbar-default .navbar-toggle:focus {
-    background-color: transparent;
+background-color: transparent;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: black !important;
+background-color: white !important;
 }
-            </style>
+@media(max-width:767px) {
+.navbar-brand img{
+margin: -11px!important;
+width: 160px !important;
+}
+.front-class {
+    padding: 10px;
+}
+.port-text h1 {
+    font-size: 40px;
+}
+}
+        </style>
     </head>
     <body data-spy="scroll" data-target=".navbar" data-offset="70">
 
@@ -148,7 +163,7 @@
                     </div><!--.container-->
                 </nav>
         </section>
-        <section class="padding-top-90 padding-bottom-90">
+        <section class="padding-top-90 padding-bottom-90 front-class">
             <div class="container">
               <div class="back"><a onclick="history.back()"><i class="fa-sharp fa-solid fa-arrow-left"></i></a></div>
                 <div class="row">
@@ -178,7 +193,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row padding-top-90">
+                <div class="row">
                     <div class="col-md-12 contain">
                         <div class="my__img animated animated_scroll fadeInUp" style="animation-delay: 0.3s">
                             <img src="./assets/images/Chronicles3.png"/>
