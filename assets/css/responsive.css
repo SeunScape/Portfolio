@@ -107,6 +107,9 @@
     .sec_title {
         padding-bottom: 40px;
     }
+    .portfolio h3 {
+        display: inline-block !important;
+    }
     .services .item {
         margin-bottom: 30px;
     }
